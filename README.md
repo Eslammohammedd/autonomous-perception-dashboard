@@ -104,10 +104,10 @@ streamlit run app/dashboard.py
 
 ## 👨‍💻 Author & Contact
 
-**Eslam**  
+**Eslam Mohammed**  
 AI & Computer Vision Engineer  
-- 💼 LinkedIn: [Your LinkedIn Profile URL]
-- 🐙 GitHub: [Your GitHub Profile URL]
-- 📧 Email: [Your Email Address]
+- 💼 LinkedIn: [Eslam Mohammed](https://www.linkedin.com/in/eslam-mohammed-592167259)
+- 🐙 GitHub: [Eslammohammedd](https://github.com/Eslammohammedd)
+- 📧 Email: [eng.eslammohammedd@gmail.com](mailto:eng.eslammohammedd@gmail.com)
 
 *Feel free to reach out for collaborations, discussions on Autonomous Systems, or Computer Vision opportunities!*
