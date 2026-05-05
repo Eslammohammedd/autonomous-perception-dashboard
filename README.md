@@ -74,6 +74,16 @@ Autonomous Vehicle Perception Module/
 
 ---
 
+## 🧠 Model Training & Datasets
+
+The core perception engine relies on custom-trained **YOLOv8** weights (`best.pt`). To ensure robust detection across diverse environments, lighting, and weather conditions, the model was fine-tuned using:
+- **BDD100K (Berkeley DeepDrive):** The industry standard dataset for autonomous driving, featuring complex urban and highway scenarios.
+- **Transfer Learning Baseline:** Initialized with COCO datasets to maintain high generalizability across standard vehicle classes.
+
+*(Note: The raw image datasets are excluded from this GitHub repository due to size constraints. However, the optimized, custom-trained AI weights are fully integrated and ready for inference).*
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### 1. Clone & Environment Setup
