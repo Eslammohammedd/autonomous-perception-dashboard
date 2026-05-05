@@ -1,0 +1,22 @@
+[
+  {
+    "model": "TrafficCNN (Adam)",
+    "accuracy": 1.0
+  },
+  {
+    "model": "MobileNetV2 (fine-tuned)",
+    "accuracy": 0.7175
+  },
+  {
+    "model": "MobileNetV2 (random init)",
+    "accuracy": 0.1025
+  },
+  {
+    "model": "VGG16 (fine-tuned)",
+    "accuracy": 0.9675
+  },
+  {
+    "model": "VGG16 (random init)",
+    "accuracy": 0.1
+  }
+]

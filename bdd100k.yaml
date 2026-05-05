@@ -1,0 +1,34 @@
+# bdd100k.yaml — YOLOv8 Dataset Configuration
+# ---------------------------------------------------------
+# This file tells YOLO where to find the BDD100K images/labels
+# and defines the classes for Autonomous Vehicle Perception.
+
+# Paths (Relative to the training script or absolute)
+path: ../datasets/bdd100k  # root dir
+train: images/train        # train images
+val:   images/val          # val images
+test:  images/test         # test images (optional)
+
+# Classes
+names:
+  0: person
+  1: rider
+  2: car
+  3: bus
+  4: truck
+  5: bike
+  6: motor
+  7: traffic light
+  8: traffic sign
+  9: train
+
+# ---------------------------------------------------------
+# Note: Ensure your directory structure looks like this:
+# datasets/
+# └── bdd100k/
+#     ├── images/
+#     │   ├── train/
+#     │   └── val/
+#     └── labels/
+#         ├── train/
+#         └── val/

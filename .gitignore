@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+venv_gpu/
+ENV/
+
+# PyTorch & YOLO Models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.h5
+results/models/
+runs/
+yolov8n.pt
+
+# Data & Demo Videos
+data/raw/
+data/demo/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
+# Streamlit / Web
+.streamlit/
+.DS_Store
