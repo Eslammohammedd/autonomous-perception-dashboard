@@ -156,8 +156,13 @@ DEMO_N_TEST  = 400         # synthetic test samples
 # ─────────────────────────────────────────────
 # Device
 # ─────────────────────────────────────────────
-import torch
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+try:
+    import torch
+
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+except ImportError:
+    # analytics.py and tracker.py use config without the deep-learning stack.
+    DEVICE = "cpu"
 
 # ─────────────────────────────────────────────
 # Reproducibility
