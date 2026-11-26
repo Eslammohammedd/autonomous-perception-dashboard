@@ -91,8 +91,8 @@ Ensure you have a Python environment with CUDA support for maximum FPS.
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd "Autonomous Vehicle Perception Module"
+git clone https://github.com/Eslammohammedd/autonomous-perception-dashboard.git
+cd autonomous-perception-dashboard
 
 # Install dependencies 
 pip install -r requirements.txt
@@ -109,6 +109,26 @@ streamlit run app/dashboard.py
 2. **Configure (Sidebar):** Adjust `Inference Size`, turn on `Privacy Mode`, or enable `Estimate Distance` depth perception.
 3. **Analyze:** Click **🚀 Run Analysis** to watch the live tracking, proximity alerts, and speed estimations.
 4. **Export & Reports:** Head over to the **📊 Analytics Dashboard** tab to read the AI Summary, view the Density Heatmap, and download the annotated video.
+
+---
+
+## 🧪 Testing
+
+```bash
+python -m pytest tests -q
+```
+
+The suite covers analytics aggregation and speed-estimation geometry. CI runs it on every push and pull request.
+
+## 📚 Dataset Notes
+
+- `datasets/coco128/` is the Ultralytics COCO128 sample provided under GPL-3.0; see `datasets/coco128/LICENSE`.
+- BDD100K and other full datasets are referenced for provenance only and are not committed.
+- Speed and distance estimates are rough approximations without camera calibration.
+
+## 📄 License
+
+MIT — see [LICENSE](LICENSE). The COCO128 sample retains its original GPL-3.0 license.
 
 ---
 

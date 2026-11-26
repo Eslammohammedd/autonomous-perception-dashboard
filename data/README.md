@@ -34,3 +34,9 @@ For production AV systems, consider:
 | [German Traffic Sign Dataset](https://benchmark.ini.rub.de/gtsrb_news.html) | 50K images | Sign classification |
 
 These require domain-specific annotation tools and hardware beyond the scope of this course project.
+
+---
+
+## COCO128 Sample
+
+`datasets/coco128/` contains the Ultralytics COCO128 sample dataset, used here as a small YOLO-format example. It is redistributed under GPL-3.0; its license and attribution are in `datasets/coco128/LICENSE` and `datasets/coco128/README.txt`.
