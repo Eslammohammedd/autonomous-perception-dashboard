@@ -1,0 +1,24 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Binary assets (never normalize)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.pkl binary
+*.joblib binary
+*.pt binary
+*.pth binary
+*.onnx binary
+*.zip binary
+*.gz binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Text formats kept as LF
+*.svg text eol=lf
+*.ipynb text eol=lf
