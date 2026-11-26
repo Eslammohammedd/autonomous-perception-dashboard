@@ -8,6 +8,7 @@
     <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-Optimized-EE4C2C.svg" alt="PyTorch"/></a>
     <a href="https://github.com/ultralytics/ultralytics"><img src="https://img.shields.io/badge/YOLO-v8-blueviolet.svg" alt="YOLOv8"/></a>
     <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg" alt="Streamlit"/></a>
+    <a href="https://github.com/Eslammohammedd/autonomous-perception-dashboard/actions/workflows/ci.yml"><img src="https://github.com/Eslammohammedd/autonomous-perception-dashboard/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
   </p>
 </div>
 
