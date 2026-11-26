@@ -51,3 +51,18 @@ data/demo/
 # Streamlit / Web
 .streamlit/
 .DS_Store
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+
+# OS / editors
+Thumbs.db
+desktop.ini
